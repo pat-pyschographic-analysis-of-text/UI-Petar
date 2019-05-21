@@ -1,0 +1,85 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: 2px solid black;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    padding-left: 5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30rem;
+    padding-right: 5.2rem; 
+}
+
+ul li a {
+    font-size: 3.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #12B1FC;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: #0082c9;
+}
+
+/* main */
+
+.screen {
+    height: 100vh;
+    background-color: white;
+    border: 1px solid black; /* this border will be removed */
+}
+
+.first {
+    
+}
+
+.call-to-action {
+    background-color: #0082c9;
+}
