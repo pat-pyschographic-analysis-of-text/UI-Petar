@@ -31,7 +31,7 @@ html {
 /* main */
 
 .screen {
-    height: 100vh;
+    
     width: fit-content;
     background-color: white;
     border: 1px solid black; /* this border will be removed */
@@ -62,6 +62,7 @@ nav img {
 }
 
 nav ul {
+    size: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -78,39 +79,40 @@ nav ul li a {
     font-size: 3em;
     text-decoration: none;
     font-weight: 600;
-    color: #12B1FC;
+    color: #352ECB;
 }
 
  nav ul li a:hover {
     cursor: pointer;
-    color: #352ECB;
+    color: white;
 }
 
-.caption {
+.circle {
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-size: 5vw;
     font-weight: 600;
-    color: white;
     border-radius: 50%;
     width: 30vw;
     height: 30vw;
     top: 14vw;
     left: 37vw;
+    color: #352ECB;
+    background: rgb(255, 255, 255, 0.55);
 }
 
-.caption div {
+.circle div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.caption:hover {
+.circle:hover {
     cursor: pointer;
-    background: rgb(255, 255, 255, 0.55);
-    color: #352ECB;
+    background: rgb(0, 0, 0, 0.55);
+    color: white;
 }
 
 .text {
@@ -119,11 +121,54 @@ nav ul li a {
     font-size: 4vw;
     font-weight: 600;
     width: 70vw;
-    top: 49vw;
+    top: 48vw;
     left: 5vw;
     color: white;
 }
 
+/* second screen */
+.two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5vw;
+    height: 60vw;
+}
+
+.circle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    padding: 1vw;
+    color: white;
+    background: #AC88FF;
+}
+
+.white {
+    justify-content: center;
+    font-size: 2vw;
+    background: white;
+    color: #AC88FF;
+    border: 2px solid #AC88FF;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 .call-to-action {
     background-color: #12B1FC;
