@@ -24,72 +24,107 @@ vertical-align: baseline;
 html {
     font-family: "Montserrat", sans-serif;
     font-size: 62.5%;
-}
-
-.container {
-    width: 100%;
     overflow-x: hidden;
 }
 
-/* nav */
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    height: 10vh;
-    border-bottom: 2px solid black;
-}
-
-.whiten {
-    width: 100vw;
-    height: 100%;
-    position: relative;
-    z-index: 1;
-    background: rgb(255, 255, 255, 0.55);
-}
-
-img {
-    height: 100%;
-    width: auto;
-    padding-left: 5rem;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 30rem;
-    padding-right: 5.2rem; 
-}
-
-ul li a {
-    font-size: 3.2rem;
-    text-decoration: none;
-    font-weight: 600;
-    color: #12B1FC;
-}
-
-ul li a:hover {
-    cursor: pointer;
-    color: #0082c9;
-}
 
 /* main */
 
 .screen {
     height: 100vh;
+    width: fit-content;
     background-color: white;
     border: 1px solid black; /* this border will be removed */
 }
 
+/* first screen */
+
 .first {
-    width: 100vw;
     background: url('../img/desktop-background.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
 }
 
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background: rgb(255, 255, 255, 0.55);
+}
+
+nav img {
+    width: 30em;
+    padding-left: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30em;
+    padding-right: 3em;
+}
+
+nav ul li:first-of-type {
+    padding-right: 4em;
+}
+
+nav ul li a {
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: 600;
+    color: #12B1FC;
+}
+
+ nav ul li a:hover {
+    cursor: pointer;
+    color: #352ECB;
+}
+
+.caption {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 5vw;
+    font-weight: 600;
+    color: white;
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    top: 14vw;
+    left: 37vw;
+}
+
+.caption div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption:hover {
+    cursor: pointer;
+    background: rgb(255, 255, 255, 0.55);
+    color: #352ECB;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+    width: 70vw;
+    top: 49vw;
+    left: 5vw;
+    color: white;
+}
+
+
 .call-to-action {
-    background-color: #0082c9;
+    background-color: #12B1FC;
 }
