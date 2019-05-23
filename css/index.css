@@ -27,14 +27,11 @@ html {
     overflow-x: hidden;
 }
 
-
 /* main */
 
 .screen {
-    
     width: fit-content;
     background-color: white;
-    border: 1px solid black; /* this border will be removed */
 }
 
 /* first screen */
@@ -133,7 +130,7 @@ nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 5vw;
-    height: 50vw;
+    height: 35vw;
 }
 
 .circle2 {
@@ -175,7 +172,7 @@ nav ul li a {
 
 .call-to-action {
     background-color: #12B1FC;
-    height: 50vw
+    height: 50vw;
 }
 
 .call {
@@ -189,7 +186,6 @@ nav ul li a {
     height: 20vw;
     color: #352ECB;
     border: 2px solid;
-
 }
 
 .call div {
@@ -208,6 +204,10 @@ nav ul li a {
 
 footer {
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
     background: gray;
 }
+
+/* mobile viev */
+
+@media()
