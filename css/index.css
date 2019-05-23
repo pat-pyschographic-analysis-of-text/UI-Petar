@@ -1,0 +1,213 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* main */
+
+.screen {
+    width: fit-content;
+    background-color: white;
+}
+
+/* first screen */
+
+.first {
+    background: url('../img/desktop-background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background: rgb(255, 255, 255, 0.55);
+}
+
+nav img {
+    width: 30em;
+    padding-left: 1em;
+}
+
+nav ul {
+    size: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 30em;
+    padding-right: 3em;
+}
+
+nav ul li:first-of-type {
+    padding-right: 4em;
+}
+
+nav ul li a {
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: 600;
+    color: #352ECB;
+}
+
+ nav ul li a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.circle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 5vw;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    top: 14vw;
+    left: 37vw;
+    color: #352ECB;
+    background: rgb(255, 255, 255, 0.55);
+}
+
+.circle div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle:hover {
+    cursor: pointer;
+    background: rgb(0, 0, 0, 0.55);
+    color: white;
+}
+
+.text {
+    position: absolute;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+    width: 70vw;
+    top: 48vw;
+    left: 5vw;
+    color: white;
+}
+
+/* second screen */
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5vw;
+    height: 35vw;
+}
+
+.circle2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 600;
+    border-radius: 50%;
+    width: 20vw;
+    height: 20vw;
+    padding: 1vw;
+    color: white;
+    background: #AC88FF;
+}
+
+.white {
+    justify-content: center;
+    font-size: 2vw;
+    background: white;
+    color: #AC88FF;
+    border: 2px solid #AC88FF;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* call to action */
+
+.call-to-action {
+    background-color: #12B1FC;
+    height: 50vw;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15vw auto;
+    font-size: 3vw;
+    font-weight: 600;
+    width: 20vw;
+    height: 20vw;
+    color: #352ECB;
+    border: 2px solid;
+}
+
+.call div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call:hover {
+    cursor: pointer;
+    background: rgb(0, 0, 0, 0.55);
+    color: white;
+}
+
+/* footer */
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    background: gray;
+}
+
+/* mobile viev */
+
+@media()
