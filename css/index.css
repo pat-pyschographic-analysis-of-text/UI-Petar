@@ -76,7 +76,7 @@ nav ul li a {
     font-size: 3em;
     text-decoration: none;
     font-weight: 600;
-    color: #352ECB;
+    color: #12B1FC;
 }
 
  nav ul li a:hover {
@@ -172,7 +172,7 @@ nav ul li a {
 
 .call-to-action {
     background-color: #12B1FC;
-    height: 50vw;
+    height: 40vw;
 }
 
 .call {
@@ -205,9 +205,88 @@ nav ul li a {
 footer {
     width: 100vw;
     height: 5vh;
-    background: gray;
+    background: #AC88FF;
 }
 
 /* mobile viev */
 
-@media()
+@media(max-width: 500px) {
+    .container {
+        width: 500px;
+    }
+
+    .first {
+        background: url('../img/mobile-background.jpg');
+        height: 677px;
+    }
+
+    nav img {
+        width: 50%;
+    }
+
+    nav ul {
+        width: 40%;
+        padding-right: 2vw;
+    }
+
+    nav ul li {
+        font-size: 80%;
+    }
+
+    nav ul li:first-of-type {
+        padding-right: 2vw;
+        padding-left: 1vw;
+    }
+
+    .circle {
+        font-size: 400%;
+        width: 35vh;
+        height: 35vh;
+        top: 28vh;
+        left: 26vh;
+    }
+
+    .text {
+        font-size: 300%;
+        top: 70vh;
+        left: 10vw;
+    }
+
+    .two {
+        justify-content: space-around;
+        height: 1400px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .circle2 {
+        margin: 20px;
+        font-size: 450%;
+        width: 35vh;
+        height: 35vh;
+    }
+
+    .white {
+        font-size: 200%;
+    }
+
+    .special {
+        margin-top: 0;
+    }
+
+    .call-to-action {
+        height: 90vh;
+    }
+
+    .call {
+        width: 35vh ;
+        height: 35vh ;
+        font-size: 350%;
+    }
+
+    footer {
+        height: 10vh;
+    }
+}
