@@ -76,7 +76,7 @@ nav ul li a {
     font-size: 3em;
     text-decoration: none;
     font-weight: 600;
-    color: #352ECB;
+    color: #12B1FC;
 }
 
  nav ul li a:hover {
@@ -172,7 +172,7 @@ nav ul li a {
 
 .call-to-action {
     background-color: #12B1FC;
-    height: 50vw;
+    height: 40vw;
 }
 
 .call {
@@ -205,7 +205,7 @@ nav ul li a {
 footer {
     width: 100vw;
     height: 5vh;
-    background: gray;
+    background: #AC88FF;
 }
 
 /* mobile viev */
