@@ -34,6 +34,9 @@ a {
 }
 
 .tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 1vw;
 }
 
@@ -81,4 +84,42 @@ a {
 .card span {
     text-align: center;
     width: 25vw;
+}
+
+/* mobile view */
+
+@media(max-width: 500px) {
+    nav {
+        position: absolute;
+    }
+
+    .tabs {
+        position: absolute;
+        margin-top: 10vh;
+    }
+
+    .tab {
+        text-align: center;
+        font-size: 170%;
+    }
+
+    .cards {
+        position: absolute;
+        margin-top: 18vh;
+    }
+
+    .card {
+        margin: 3vh 2vh 1vh 2vh;
+        font-size: 350%;
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .card .img-container {
+        width: 40%;
+    }
+
+    .card span {
+        width: 80vw;
+    }
 }
