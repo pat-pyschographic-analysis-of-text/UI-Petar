@@ -230,31 +230,31 @@ footer {
     }
 
     nav ul li {
-        font-size: 80%;
+        font-size: 70%;
     }
 
     nav ul li:first-of-type {
-        padding-right: 2vw;
+        padding-right: 3vw;
         padding-left: 1vw;
     }
 
     .circle {
-        font-size: 400%;
-        width: 35vh;
-        height: 35vh;
-        top: 28vh;
-        left: 26vh;
+        font-size: 350%;
+        width: 37vh;
+        height: 37vh;
+        top: 33vh;
+        left: 33vh;
     }
 
     .text {
         font-size: 300%;
-        top: 70vh;
+        top: 83vh;
         left: 10vw;
     }
 
     .two {
         justify-content: space-around;
-        height: 1400px;
+        height: 1250px;
     }
 
     .row {
