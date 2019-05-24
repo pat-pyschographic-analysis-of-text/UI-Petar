@@ -19,7 +19,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 10vh;
+    height: 12vh;
     width: 100vw;
 
 }
@@ -105,14 +105,14 @@ a {
 
     .cards {
         position: absolute;
-        margin-top: 18vh;
+        margin-top: 19vh;
+        margin-left: 6vw;
     }
 
     .card {
-        margin: 3vh 2vh 1vh 2vh;
-        font-size: 350%;
-        width: 90vw;
-        height: 90vw;
+        font-size: 300%;
+        width: 80vw;
+        height: 80vw;
     }
 
     .card .img-container {
