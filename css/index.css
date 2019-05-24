@@ -130,7 +130,7 @@ nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 5vw;
-    height: 35vw;
+    height: 50vw;
 }
 
 .circle2 {
@@ -171,15 +171,19 @@ nav ul li a {
 /* call to action */
 
 .call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40%;
     background-color: #12B1FC;
     height: 40vw;
 }
 
 .call {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 15vw auto;
     font-size: 3vw;
     font-weight: 600;
     width: 20vw;
@@ -230,7 +234,7 @@ footer {
     }
 
     nav ul li {
-        font-size: 70%;
+        font-size: 80%;
     }
 
     nav ul li:first-of-type {
@@ -254,7 +258,7 @@ footer {
 
     .two {
         justify-content: space-around;
-        height: 1250px;
+        height: 1330px;
     }
 
     .row {
@@ -278,6 +282,7 @@ footer {
 
     .call-to-action {
         height: 90vh;
+        padding-left: 30%;
     }
 
     .call {
